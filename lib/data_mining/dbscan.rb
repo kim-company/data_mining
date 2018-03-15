@@ -13,7 +13,7 @@ module DataMining
       @min_points         = min_points
       @current_cluster_id = 0
       @clusters           = {}
-      @unvisited_points   = @data.shuffle
+      @unvisited_points   = @data
     end
 
     def cluster!
